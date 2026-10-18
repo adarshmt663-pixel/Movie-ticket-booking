@@ -1,0 +1,102 @@
+
+body{
+    background-color: black;
+}
+.movies-page {
+    padding: 70px 7%;
+}
+.logo span{
+    color: red;
+    font-size: xx-large;
+}
+.logo{
+    font-size: xx-large;
+    color: white;
+}
+
+.movies-page h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.movies-subtitle {
+    color: #e3dada;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+
+
+.movies-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+
+
+
+.movie-card {
+    background-color: #16161d;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    padding-bottom: 18px;
+    
+}
+
+.movie-card img {
+    height: 350px;
+    width: 410px;
+    
+    
+}
+
+
+.movie-card h3 {
+    font-size: 20px;
+
+    margin: 16px 15px 7px;
+}
+
+.movie-card p {
+    color: #999999;
+
+    font-size: 14px;
+
+    margin: 0 15px 18px;
+}
+
+.movie-card a {
+    display: block;
+
+    margin: 0 15px;
+
+    padding: 11px;
+
+    text-align: center;
+
+    background-color: #e50914;
+
+    color: white;
+
+
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+.movie-card a:hover {
+    background-color: #b80710;
+}
+
+

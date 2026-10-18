@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.logo span{
+    color: red;
+    font-size: xx-large;
+}
+
+.logo{
+    color: white;
+    font-size: xx-large;
+}
+
+.confirmation-page {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 7%;
+}
+
+.confirmation-box {
+    width: 600px;
+    background-color: #16161d;
+    border: 1px solid #25252d;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+}
+
+
+h1{
+    color: white;
+}
+
+
+.confirmation-box h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.confirmation-message {
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.ticket-details {
+    text-align: left;
+    border: 1px solid #25252d;
+    border-radius: 6px;
+    padding: 25px;
+}
+
+h2{
+    color: white;
+}
+
+
+.detail-row{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    
+}
+
+.ticket-details h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ticket-details .detail-row {
+    padding: 12px 0;
+}
+
+.thank-you {
+    color: #aaaaaa;
+    margin: 25px 0;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-button:hover {
+    background-color: #b80710;
+}

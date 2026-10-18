@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+.seat-page {
+    padding: 60px 7%;
+    text-align: center;
+}
+
+.seat-page h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.seat-subtitle {
+    color: #999999;
+    margin-bottom: 45px;
+}
+
+.logo span{
+    color: red;
+    font-size: xx-large;
+}
+.logo{
+    color: white;
+    font-size: xx-large;
+}
+
+.screen {
+    width: 700px;
+    margin: 0 auto 50px;
+
+    padding: 12px;
+
+    background-color: #eeeeee;
+    color: black;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+
+.seat-layout {
+    display: flex;
+    
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.row-name {
+    width: 20px;
+    color: #999999;
+    margin-right: 10px;
+}
+
+
+
+
+.seat {
+    width: 38px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    font-size: 12px;
+}
+
+
+
+
+.seat.available {
+    border: 1px solid #e50914;
+    color: white;
+}
+
+
+
+
+.seat.occupied {
+    background-color: red;
+    color: #999999;
+}
+
+
+
+
+.seat-legend {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 40px;
+
+    color: white;
+    font-size: 13px;
+}
+
+.seat-legend div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legend-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.available-box {
+    border: 1px solid #e50914;
+}
+
+.occupied-box {
+    background-color: red;
+}
+
+
+
+
+.continue-button {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    padding: 13px 35px;
+
+    background-color: #e50914;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.continue-button:hover {
+    background-color: #b80710;
+}
+

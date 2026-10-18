@@ -1,0 +1,204 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0f;
+    color: white;
+}
+
+
+
+
+.navbar {
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3px;
+
+    background-color: #0b0b0f;
+
+    border-bottom: 1px solid #25252d;
+}
+
+.logo {
+    font-size: 26px;
+    font-size: xx-large;
+}
+
+.logo span {
+    color: #e50914;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+
+
+
+.hero {
+    height: 550px;
+
+    display: flex;
+    align-items: center;
+
+    padding: auto;
+    margin: 50px;
+    
+}
+
+
+
+
+.hero h1 {
+    font-size: 52px;
+    
+
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #cccccc;
+    font-size: 16px;
+    
+
+    margin-bottom: 30px;
+}
+
+.book-button {
+    display: flex;
+    width: 80px;
+    background-color: #e50914;
+    color: white;
+
+    padding: 13px 28px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.book-button:hover {
+    background-color: #b80710;
+}
+
+
+
+
+.now-showing {
+    padding: 70px 7%;
+}
+
+.now-showing h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.movies {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+
+.movie-card {
+    
+    background-color: #16161d;
+
+    border-radius: 8px;
+
+    
+
+    padding-bottom: 18px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.movie-card h3 {
+    font-size: 19px;
+
+    margin: 15px 15px 7px;
+}
+
+.movie-card p {
+    color: #999999;
+
+    font-size: 13px;
+
+    margin: 0 15px 18px;
+}
+
+.movie-card a {
+    display: block;
+
+    margin: 0 15px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    background-color: #e50914;
+
+    color: white;
+
+    
+
+    border-radius: 4px;
+
+    font-size: 13px;
+}
+
+.movie-card a:hover {
+    background-color: #b80710;
+}
+
+
+
+footer {
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    border-top: 1px solid #25252d;
+}
+
+
+.footer-logo span {
+    color: #e50914;
+}
+
+footer p {
+    color: #777777;
+    font-size: 13px;
+}
+
+
+
+
+

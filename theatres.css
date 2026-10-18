@@ -1,0 +1,102 @@
+
+body{
+    background-color: black;
+}
+.theatre-page {
+    padding: 70px 7%;
+}
+.logo span{
+    color: red;
+    font-size: xx-large;
+}
+.logo{
+    font-size: xx-large;
+    color: white;
+}
+
+.theatre-page h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.theatre-subtitle {
+    color: #999999;
+    margin-bottom: 40px;
+}
+
+
+
+
+.theatre-card {
+    background-color: rgb(96, 107, 189);
+
+    border-radius: 8px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid #7979b9;
+}
+
+
+
+
+.theatre-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.theatre-info p {
+    color: black;
+    margin-bottom: 8px;
+}
+.show-times p{
+    color: black;
+}
+
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+
+
+.show-times {
+    text-align: right;
+}
+
+.show-times p {
+    color: #999999;
+    margin-bottom: 12px;
+}
+
+.show-times a {
+    display: inline-block;
+
+    padding: 10px 15px;
+
+    margin-left: 8px;
+
+    border: 1px solid #e50914;
+
+    border-radius: 5px;
+
+    color: white;
+
+
+    font-size: 13px;
+}
+
+.show-times a:hover {
+    background-color: #e50914;
+}
+
+
